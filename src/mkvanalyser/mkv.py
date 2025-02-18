@@ -9,7 +9,7 @@ import struct
 import logging
 import binascii
 
-from mkvanalyser.idlookups import id_table
+from idlookups import id_table
 
 
 class DataLengthError(Exception):

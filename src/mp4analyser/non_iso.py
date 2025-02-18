@@ -8,10 +8,10 @@ https://developer.apple.com/library/archive/documentation/QuickTime/QTFF/QTFFCha
 """
 import binascii
 
-import mp4analyser.iso
-import mp4analyser.mpeglookups
-from mp4analyser.util import *
-from mp4analyser.core import *
+from . import iso
+from . import mpeglookups
+from .util import *
+from .core import *
 
 
 def box_factory_non_iso(fp, header, parent):
